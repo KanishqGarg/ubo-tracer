@@ -1,0 +1,26 @@
+{
+  "scenario_id": "scenario_15",
+  "label": "SYNTHETIC ADVERSARIAL SCENARIO 15: Ownership Summing Above 100%",
+  "description": "Filing claims that two different holding branches both hold large stakes that mathematically sum to > 100% (e.g. Branch A holds 60%, Branch B holds 60% of the same target). Calculator must cap upper bound at 100% and flag for human review as mathematically inconsistent.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1501",
+      "entity_id": "target_corp_15",
+      "entity_name": "Target Corp 15 Ltd",
+      "content_text": "Conflicting PSC Filing: Branch A Ltd holds 60% of voting shares in Target Corp 15 Ltd. Branch B Ltd holds 60% of voting shares in Target Corp 15 Ltd."
+    },
+    {
+      "document_id": "syn_doc_1502",
+      "entity_id": "branch_a_ltd",
+      "entity_name": "Branch A Ltd",
+      "content_text": "PSC confirmation: George Smiley holds 100% shares in Branch A Ltd."
+    },
+    {
+      "document_id": "syn_doc_1503",
+      "entity_id": "branch_b_ltd",
+      "entity_name": "Branch B Ltd",
+      "content_text": "PSC confirmation: George Smiley holds 100% shares in Branch B Ltd."
+    }
+  ]
+}
+

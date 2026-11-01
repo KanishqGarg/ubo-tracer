@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# SQLite databases & local caches
+*.db
+*.sqlite
+*.sqlite3
+logs/*.db
+logs/*.jsonl
+logs/*.html
+logs/temp_graph.html
+!logs/.gitkeep
+
+# Local evaluation results
+evals/results/*.json
+evals/results/*.md
+!evals/results/.gitkeep
+
+# Pyvis auto-generated static assets
+lib/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch automation and testing captures
+capture_*.py
+capture_*.ps1
+test_screen.png
+ui_home.png

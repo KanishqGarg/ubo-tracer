@@ -1,0 +1,26 @@
+{
+  "scenario_id": "scenario_3",
+  "label": "SYNTHETIC TEST SCENARIO 3: Multiple Paths",
+  "description": "Carol Danvers owns via two subsidiaries: Path A = 40% * 30% = 12%, Path B = 50% * 30% = 15%. Total = 27% (>25%).",
+  "documents": [
+    {
+      "document_id": "syn_doc_301",
+      "entity_id": "target_corp_3",
+      "entity_name": "Target Corp 3 Ltd",
+      "content_text": "Target Corp 3 Ltd register of members: MidCo North owns 30% of equity shares. MidCo South owns 30% of equity shares."
+    },
+    {
+      "document_id": "syn_doc_302",
+      "entity_id": "midco_north",
+      "entity_name": "MidCo North",
+      "content_text": "PSC confirmation: Carol Danvers holds directly 40% of voting shares in MidCo North."
+    },
+    {
+      "document_id": "syn_doc_303",
+      "entity_id": "midco_south",
+      "entity_name": "MidCo South",
+      "content_text": "PSC confirmation: Carol Danvers holds directly 50% of voting shares in MidCo South."
+    }
+  ]
+}
+

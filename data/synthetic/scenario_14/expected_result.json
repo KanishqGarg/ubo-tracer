@@ -1,0 +1,10 @@
+{
+  "scenario": "scenario_14",
+  "is_synthetic": true,
+  "target_id": "target_corp_14",
+  "expected_ubos": [],
+  "disallowed_owners": [
+    "Victoria Secret"
+  ]
+}
+

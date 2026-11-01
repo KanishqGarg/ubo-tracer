@@ -1,0 +1,20 @@
+{
+  "scenario_id": "scenario_13",
+  "label": "SYNTHETIC ADVERSARIAL SCENARIO 13: Name Collision (Two Different People, Same Name)",
+  "description": "Two distinct natural persons share the name 'John Smith' across different entities (e.g. John Smith of London born 1970 holding 15% directly, and John Smith of Edinburgh born 1985 holding 15% through MidCo). System must handle or flag disambiguation collision.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1301",
+      "entity_id": "target_corp_13",
+      "entity_name": "Target Corp 13 Ltd",
+      "content_text": "Target Corp 13 Ltd Members Register: John Smith (DOB May 1970, London) holds 15% directly. Smith HoldCo Ltd holds 30% directly."
+    },
+    {
+      "document_id": "syn_doc_1302",
+      "entity_id": "smith_holdco_ltd",
+      "entity_name": "Smith HoldCo Ltd",
+      "content_text": "PSC confirmation: John Smith (DOB Nov 1985, Edinburgh) holds 50% shares in Smith HoldCo Ltd."
+    }
+  ]
+}
+

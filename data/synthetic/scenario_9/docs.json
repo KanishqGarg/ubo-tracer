@@ -1,0 +1,26 @@
+{
+  "scenario_id": "scenario_9",
+  "label": "SYNTHETIC TEST SCENARIO 9: Messy Language & Verifier Trap",
+  "description": "Natural language with complex terms ('wholly owned subsidiary', 'approximately one quarter', 'via nominee'). Also contains a deliberate hallucination trap claim that must be rejected.",
+  "documents": [
+    {
+      "document_id": "syn_doc_901",
+      "entity_id": "target_corp_9",
+      "entity_name": "Target Corp 9 Ltd",
+      "content_text": "Target Corp 9 Ltd is a wholly owned subsidiary of Alpha Parent Ltd, holding 100% of voting rights. Furthermore, Mr. Ian Vance, via nominee, maintains an approximate 10% beneficial interest. (Note: A fraudulent filing previously asserted that Phantom Swindler holds 80%, but no such shareholding exists in the registry)."
+    },
+    {
+      "document_id": "syn_doc_902",
+      "entity_id": "alpha_parent_ltd",
+      "entity_name": "Alpha Parent Ltd",
+      "content_text": "Alpha Parent Ltd annual return: Jane Doe holds 60% of equity shares directly."
+    }
+  ],
+  "hallucination_trap": {
+    "fake_owner": "Phantom Swindler",
+    "claimed_percentage": 80.0,
+    "quote": "Phantom Swindler holds 80% of shares",
+    "must_be_rejected": true
+  }
+}
+

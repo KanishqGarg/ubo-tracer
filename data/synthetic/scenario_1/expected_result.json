@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_1",
+  "is_synthetic": true,
+  "target_id": "target_corp_1",
+  "expected_ubos": [
+    {
+      "owner_name": "Alice Smith",
+      "owner_type": "person",
+      "effective_min": 60.0,
+      "effective_max": 60.0,
+      "status": "ABOVE",
+      "requires_human_review": false
+    }
+  ]
+}
+

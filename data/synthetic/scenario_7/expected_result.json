@@ -1,0 +1,15 @@
+{
+  "scenario": "scenario_7",
+  "is_synthetic": true,
+  "target_id": "target_corp_7",
+  "expected_ubos": [
+    {
+      "owner_name": "Grace Hopper",
+      "owner_type": "person",
+      "effective_min": 25.0,
+      "effective_max": 50.0,
+      "status": "ABOVE"
+    }
+  ]
+}
+

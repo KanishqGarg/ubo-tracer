@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_4",
+  "label": "SYNTHETIC TEST SCENARIO 4: Boundary Exactly 25%",
+  "description": "Dave Miller holds exactly 25.0% directly in Target Corp 4 Ltd. With 'gt' operator, 25.0 is BELOW.",
+  "documents": [
+    {
+      "document_id": "syn_doc_401",
+      "entity_id": "target_corp_4",
+      "entity_name": "Target Corp 4 Ltd",
+      "content_text": "Certificate of Incorporation & Shares: Dave Miller holds exactly 25% of the issued share capital."
+    }
+  ]
+}
+

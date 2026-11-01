@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_2",
+  "is_synthetic": true,
+  "target_id": "target_corp_2",
+  "expected_ubos": [
+    {
+      "owner_name": "Bob Jones",
+      "owner_type": "person",
+      "effective_min": 30.0,
+      "effective_max": 30.0,
+      "status": "ABOVE",
+      "requires_human_review": false
+    }
+  ]
+}
+

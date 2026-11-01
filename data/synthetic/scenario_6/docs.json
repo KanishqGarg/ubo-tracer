@@ -1,0 +1,26 @@
+{
+  "scenario_id": "scenario_6",
+  "label": "SYNTHETIC TEST SCENARIO 6: Circular Ownership",
+  "description": "Target Corp 6 is owned 50% by Frank Castle (Person) and 50% by Cycle A Ltd. Cycle A is owned 50% by Cycle B. Cycle B is owned 50% by Cycle A. System must terminate safely and flag the cycle.",
+  "documents": [
+    {
+      "document_id": "syn_doc_601",
+      "entity_id": "target_corp_6",
+      "entity_name": "Target Corp 6 Ltd",
+      "content_text": "Company Register: Frank Castle holds 50% of voting shares directly. Cycle A Ltd holds 50% of voting shares."
+    },
+    {
+      "document_id": "syn_doc_602",
+      "entity_id": "cycle_a_ltd",
+      "entity_name": "Cycle A Ltd",
+      "content_text": "Ownership disclosure: Cycle B Ltd holds 50% equity in Cycle A Ltd."
+    },
+    {
+      "document_id": "syn_doc_603",
+      "entity_id": "cycle_b_ltd",
+      "entity_name": "Cycle B Ltd",
+      "content_text": "Ownership disclosure: Cycle A Ltd holds 50% equity in Cycle B Ltd."
+    }
+  ]
+}
+

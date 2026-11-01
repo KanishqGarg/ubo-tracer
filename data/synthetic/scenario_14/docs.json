@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_14",
+  "label": "SYNTHETIC ADVERSARIAL SCENARIO 14: Cross-Entity Quote Mismatch (Quote from Wrong Company)",
+  "description": "Filing text includes a genuine ownership statement, but for an entirely unrelated third-party company 'Unrelated Corp Ltd'. An edge extracted for Target Corp 14 attributing this quote should be rejected or caught because the owned entity in the quote does not match.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1401",
+      "entity_id": "target_corp_14",
+      "entity_name": "Target Corp 14 Ltd",
+      "content_text": "Omnibus Filing Extract: Registered office notice for Target Corp 14 Ltd. In other news, Unrelated Corp Ltd is owned 90% by Victoria Secret."
+    }
+  ]
+}
+

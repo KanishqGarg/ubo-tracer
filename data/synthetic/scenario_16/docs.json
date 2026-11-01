@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_16",
+  "label": "SYNTHETIC ADVERSARIAL SCENARIO 16: Decimal Place Number Discrepancy",
+  "description": "Filing text states an owner holds 2.5% of shares, but the extraction agent claims 25% (or vice versa, a factor of 10 decimal drift). Verifier must catch the numeric mismatch and reject the edge.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1601",
+      "entity_id": "target_corp_16",
+      "entity_name": "Target Corp 16 Ltd",
+      "content_text": "PSC Register Extract for Target Corp 16 Ltd: Minor Investor holds 2.5% of shares."
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_3",
+  "is_synthetic": true,
+  "target_id": "target_corp_3",
+  "expected_ubos": [
+    {
+      "owner_name": "Carol Danvers",
+      "owner_type": "person",
+      "effective_min": 27.0,
+      "effective_max": 27.0,
+      "status": "ABOVE",
+      "requires_human_review": false
+    }
+  ]
+}
+

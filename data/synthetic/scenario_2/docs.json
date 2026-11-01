@@ -1,0 +1,20 @@
+{
+  "scenario_id": "scenario_2",
+  "label": "SYNTHETIC TEST SCENARIO 2: Two Layers",
+  "description": "Alpha HoldCo Ltd owns 60% of Target Corp 2 Ltd; Bob Jones owns 50% of Alpha HoldCo Ltd (= 30%).",
+  "documents": [
+    {
+      "document_id": "syn_doc_201",
+      "entity_id": "target_corp_2",
+      "entity_name": "Target Corp 2 Ltd",
+      "content_text": "Regulatory Filing: Alpha HoldCo Ltd holds directly 60% of voting shares in Target Corp 2 Ltd."
+    },
+    {
+      "document_id": "syn_doc_202",
+      "entity_id": "alpha_holdco",
+      "entity_name": "Alpha HoldCo Ltd",
+      "content_text": "PSC Register: Bob Jones holds directly 50% of the share capital of Alpha HoldCo Ltd."
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_12",
+  "label": "SYNTHETIC ADVERSARIAL SCENARIO 12: Linguistic Word Fractions & Approximations",
+  "description": "Filing uses wording 'holds approximately one third of the equity' and 'owns approximately 30% of shares'. Tests whether numeric grounding properly extracts 33.33% / 30% or whether quote verification rejects approx phrasing if non-numeric.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1201",
+      "entity_id": "target_corp_12",
+      "entity_name": "Target Corp 12 Ltd",
+      "content_text": "PSC Filing for Target Corp 12 Ltd: Winston Churchill holds approximately one third (33.33%) of the equity. Clement Attlee owns approximately 30% of voting shares."
+    }
+  ]
+}
+

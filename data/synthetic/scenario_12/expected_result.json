@@ -1,0 +1,22 @@
+{
+  "scenario": "scenario_12",
+  "is_synthetic": true,
+  "target_id": "target_corp_12",
+  "expected_ubos": [
+    {
+      "owner_name": "Winston Churchill",
+      "owner_type": "person",
+      "effective_min": 33.33,
+      "effective_max": 33.33,
+      "status": "ABOVE"
+    },
+    {
+      "owner_name": "Clement Attlee",
+      "owner_type": "person",
+      "effective_min": 30.0,
+      "effective_max": 30.0,
+      "status": "ABOVE"
+    }
+  ]
+}
+

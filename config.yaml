@@ -1,0 +1,45 @@
+# UBO Tracer Configuration
+
+# LLM Configuration
+llm:
+  provider: "ollama"
+  base_url: "http://localhost:11434"
+  # Default model; can be overridden via UBO_MODEL env var or CLI flag
+  model: "qwen2.5:3b"
+  fallback_model: "qwen2.5:7b-instruct"
+  timeout_seconds: 60
+  temperature: 0.0
+  max_retries: 2
+
+# Calculation & Threshold Configuration
+calculation:
+  # Threshold percentage (e.g., 25.0 means 25%)
+  threshold_percentage: 25.0
+  # Comparison operator: "gt" (strictly greater than >) or "gte" (greater than or equal >=)
+  # UK PSC regime standard is strictly greater than 25% (> 25%).
+  comparison_operator: "gt"
+  # Interval arithmetic rounding decimals
+  decimal_places: 4
+
+# Limits and Safeguards
+limits:
+  max_graph_depth: 8
+  max_agent_steps: 40
+  max_retries_per_entity: 2
+
+# Sources Order & Configuration
+sources:
+  order:
+    - "mock"
+    - "companies_house"
+    - "gleif"
+    - "filing_text"
+  mock_data_dir: "ubo_tracer/data/synthetic"
+  filing_text_dir: "ubo_tracer/data/filings"
+
+# Classification rules
+listed_companies:
+  - "LSE:"
+  - "NYSE:"
+  - "NASDAQ:"
+  - "PLC"

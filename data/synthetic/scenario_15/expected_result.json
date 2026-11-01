@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_15",
+  "is_synthetic": true,
+  "target_id": "target_corp_15",
+  "expected_ubos": [
+    {
+      "owner_name": "George Smiley",
+      "owner_type": "person",
+      "effective_min": 100.0,
+      "effective_max": 100.0,
+      "status": "ABOVE",
+      "requires_human_review": true
+    }
+  ]
+}
+

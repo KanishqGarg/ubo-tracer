@@ -1,0 +1,14 @@
+{
+  "scenario": "scenario_8",
+  "is_synthetic": true,
+  "target_id": "target_corp_8",
+  "expected_ubos": [
+    {
+      "owner_name": "Phantom Holding Ltd",
+      "owner_type": "company",
+      "status": "UNRESOLVED",
+      "requires_human_review": true
+    }
+  ]
+}
+

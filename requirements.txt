@@ -1,0 +1,11 @@
+pyyaml==6.0.2
+pydantic==2.14.2
+requests==2.32.3
+pytest==8.3.4
+rich==13.9.4
+mcp==2.3.0
+streamlit==1.66.1
+pyvis==0.3.2
+reportlab==5.1.0
+pandas==3.1.0
+playwright==1.49.1

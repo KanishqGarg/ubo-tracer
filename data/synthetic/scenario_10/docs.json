@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_10",
+  "label": "SYNTHETIC TEST SCENARIO 10: Control Without Ownership",
+  "description": "Henry Ford owns only 5% of shares (BELOW 25%), but has 80% voting rights and acts as trustee. Must be flagged for human review, with 5% ownership kept separate from control.",
+  "documents": [
+    {
+      "document_id": "syn_doc_1001",
+      "entity_id": "target_corp_10",
+      "entity_name": "Target Corp 10 Ltd",
+      "content_text": "PSC Filing for Target Corp 10 Ltd: Henry Ford holds directly 5% of shares. However, Henry Ford holds 80% of voting rights as trustee with significant control over board appointments."
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_6",
+  "is_synthetic": true,
+  "target_id": "target_corp_6",
+  "cycle_expected": true,
+  "expected_ubos": [
+    {
+      "owner_name": "Frank Castle",
+      "owner_type": "person",
+      "effective_min": 50.0,
+      "effective_max": 50.0,
+      "status": "ABOVE"
+    }
+  ]
+}
+

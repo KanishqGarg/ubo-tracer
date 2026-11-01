@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_7",
+  "label": "SYNTHETIC TEST SCENARIO 7: Ownership Bands",
+  "description": "Grace Hopper holds ownership recorded under UK statutory band: 'more than 25% but not more than 50%'. Interval: (25.0, 50.0] with open lower bound. Under strictly > 25% rule, every value in (25.0, 50.0] satisfies x > 25.0, deterministically classifying as ABOVE.",
+  "documents": [
+    {
+      "document_id": "syn_doc_701",
+      "entity_id": "target_corp_7",
+      "entity_name": "Target Corp 7 Ltd",
+      "content_text": "Companies House PSC Register for Target Corp 7 Ltd: Grace Hopper holds ownership of shares - more than 25% but not more than 50%."
+    }
+  ]
+}
+

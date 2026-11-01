@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_1",
+  "label": "SYNTHETIC TEST SCENARIO 1: Direct Ownership",
+  "description": "Natural person owns 60% of Target Corp directly.",
+  "documents": [
+    {
+      "document_id": "syn_doc_101",
+      "entity_id": "target_corp_1",
+      "entity_name": "Target Corp 1 Ltd",
+      "content_text": "Companies House PSC Register for Target Corp 1 Ltd: Alice Smith holds directly 60% of voting shares and equity interest."
+    }
+  ]
+}
+

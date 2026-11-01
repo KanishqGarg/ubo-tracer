@@ -1,0 +1,19 @@
+{
+  "scenario": "scenario_11",
+  "is_synthetic": true,
+  "target_id": "target_corp_11",
+  "expected_ubos": [
+    {
+      "owner_name": "Arthur Dent",
+      "owner_type": "person",
+      "effective_min": 75.0,
+      "effective_max": 75.0,
+      "status": "ABOVE",
+      "requires_human_review": false
+    }
+  ],
+  "disallowed_owners": [
+    "Eve Hacker"
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "scenario": "scenario_10",
+  "is_synthetic": true,
+  "target_id": "target_corp_10",
+  "expected_ubos": [
+    {
+      "owner_name": "Henry Ford",
+      "owner_type": "person",
+      "effective_min": 5.0,
+      "effective_max": 5.0,
+      "status": "BELOW",
+      "requires_human_review": true,
+      "has_control_flag": true
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "scenario": "scenario_13",
+  "is_synthetic": true,
+  "target_id": "target_corp_13",
+  "expected_ubos": [
+    {
+      "owner_name": "John Smith",
+      "owner_type": "person",
+      "effective_min": 15.0,
+      "effective_max": 30.0
+    }
+  ]
+}
+

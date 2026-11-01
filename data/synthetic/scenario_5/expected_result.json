@@ -1,0 +1,16 @@
+{
+  "scenario": "scenario_5",
+  "is_synthetic": true,
+  "target_id": "target_corp_5",
+  "expected_ubos": [
+    {
+      "owner_name": "Eve Clark",
+      "owner_type": "person",
+      "effective_min": 10.0,
+      "effective_max": 10.0,
+      "status": "BELOW",
+      "requires_human_review": false
+    }
+  ]
+}
+

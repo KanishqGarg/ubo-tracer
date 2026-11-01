@@ -1,0 +1,14 @@
+{
+  "scenario_id": "scenario_8",
+  "label": "SYNTHETIC TEST SCENARIO 8: Dead End (Missing Data)",
+  "description": "Target Corp 8 Ltd is owned 100% by Phantom Holding Ltd. Phantom Holding Ltd has no filings or records anywhere. Output must be UNRESOLVED with human review flag, never a guessed owner.",
+  "documents": [
+    {
+      "document_id": "syn_doc_801",
+      "entity_id": "target_corp_8",
+      "entity_name": "Target Corp 8 Ltd",
+      "content_text": "Public Registry Extract: Phantom Holding Ltd holds 100% of the share capital of Target Corp 8 Ltd."
+    }
+  ]
+}
+

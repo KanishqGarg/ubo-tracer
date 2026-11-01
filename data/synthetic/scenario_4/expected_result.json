@@ -1,0 +1,17 @@
+{
+  "scenario": "scenario_4",
+  "is_synthetic": true,
+  "target_id": "target_corp_4",
+  "expected_ubos": [
+    {
+      "owner_name": "Dave Miller",
+      "owner_type": "person",
+      "effective_min": 25.0,
+      "effective_max": 25.0,
+      "status_with_gt": "BELOW",
+      "status_with_gte": "ABOVE",
+      "status": "BELOW"
+    }
+  ]
+}
+

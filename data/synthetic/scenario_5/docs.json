@@ -1,0 +1,26 @@
+{
+  "scenario_id": "scenario_5",
+  "label": "SYNTHETIC TEST SCENARIO 5: Below Threshold in Chain",
+  "description": "Eve Clark owns 50% of Tier1; Tier1 owns 40% of Tier2; Tier2 owns 50% of Target Corp 5 (= 10%). Result: BELOW.",
+  "documents": [
+    {
+      "document_id": "syn_doc_501",
+      "entity_id": "target_corp_5",
+      "entity_name": "Target Corp 5 Ltd",
+      "content_text": "Filing note: Tier2 Ltd owns 50% shares in Target Corp 5 Ltd."
+    },
+    {
+      "document_id": "syn_doc_502",
+      "entity_id": "tier2_ltd",
+      "entity_name": "Tier2 Ltd",
+      "content_text": "Filing note: Tier1 Ltd owns 40% shares in Tier2 Ltd."
+    },
+    {
+      "document_id": "syn_doc_503",
+      "entity_id": "tier1_ltd",
+      "entity_name": "Tier1 Ltd",
+      "content_text": "PSC confirmation: Eve Clark holds 50% ownership in Tier1 Ltd."
+    }
+  ]
+}
+
