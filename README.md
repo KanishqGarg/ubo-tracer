@@ -122,6 +122,16 @@ ollama pull qwen2.5:3b
 ollama serve
 ```
 
+### Directory Alias for Relative Test Paths
+Because tests reference `ubo_tracer/data/synthetic` (the workspace path in take-home evaluations), create a directory link in the clone root so tests resolve seamlessly from both root and subfolder:
+```powershell
+# Windows PowerShell
+New-Item -ItemType Junction -Path "ubo_tracer" -Target "."
+
+# Linux / macOS
+ln -s . ubo_tracer
+```
+
 ---
 
 ## 5. How to Run
